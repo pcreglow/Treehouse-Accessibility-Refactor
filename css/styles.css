@@ -117,7 +117,7 @@ header .name{
   position: absolute;*/
 }
 
-.heading{
+h2 {
   font-size: 2em;
   text-transform: uppercase;
   color: #A7D7B6;
