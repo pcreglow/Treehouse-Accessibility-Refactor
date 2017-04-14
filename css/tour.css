@@ -5,6 +5,13 @@ table {
     margin: 0 auto;
 }
 
+caption {
+  color: #ECD393;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 table th, table td {
     margin-left: 25px;
     padding: 10px;
