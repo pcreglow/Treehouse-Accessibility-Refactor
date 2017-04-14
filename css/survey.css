@@ -15,6 +15,10 @@ fieldset {
   border: none;
 }
 
+legend {
+  padding-top: 20px;
+}
+
 input[type=text]:focus,
 input[type=email]:focus,
 textarea:focus {
