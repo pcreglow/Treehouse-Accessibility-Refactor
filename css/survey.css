@@ -1,0 +1,65 @@
+/* Survey page styles */
+
+.photo {
+    width: 60%;
+    padding: 10px;
+}
+
+form {
+    margin: 0 auto;
+    text-align: left;
+    display: inline-block;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    padding-top: 20px;
+}
+
+input, label, select {
+    margin: 10px 5px 20px 0;
+}
+
+textarea {
+    width: 250px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+    background-color: #A7D7B6;
+}
+
+button {
+    width: 150px;
+    padding: 5px;
+    color: #000;
+    background: #A7D7B6;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.container {
+    text-align: center;
+}
+
+.newsletter {
+    text-align: right;
+}
+
+.newsletter label, .newsletter input {
+    margin: 15px 0;
+}
+
+
+/* Styles for larger screens */
+
+@media screen and (min-width: 840px) {
+    .photo {
+        width: 40%;
+    }
+}
