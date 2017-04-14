@@ -19,6 +19,12 @@ legend {
   padding-top: 20px;
 }
 
+input,
+label,
+select {
+  margin: 10px 0 20px;
+}
+
 textarea {
   width: 250px;
   height: 50px;
