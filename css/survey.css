@@ -11,8 +11,12 @@ form {
   display: inline-block;
 }
 
+fieldset {
+  border: none;
+}
+
 input[type=text]:focus,
-input[type=email]:focus
+input[type=email]:focus,
 textarea:focus {
   background-color: #A7D7B6;
 }
