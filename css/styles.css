@@ -15,12 +15,12 @@ body {
 /* Link Styles */
 
 a {
-  text-decoration: none;
-  color: #999;
+  text-decoration: underline;
+  color: #fff;
 }
 
 a:hover {
-  color: #999;
+  color: #ECD393;
 }
 
 /* Section Styles */
@@ -57,10 +57,11 @@ a:hover {
 
 .nav a {
   transition: all .5s;
+  text-decoration: none;
 }
 
 .nav a:hover {
-  color: #fff;
+  color: #ECD393;
 }
 
 header {
