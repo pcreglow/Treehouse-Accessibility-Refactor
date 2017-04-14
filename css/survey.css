@@ -1,66 +1,63 @@
 /* Survey page styles */
 
-.photo{
-  width: 60%;
-  padding: 10px;
+.photo {
+    width: 60%;
+    padding: 10px;
 }
 
 form {
-  margin: 0 auto;
-  text-align: left;
-  display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+    display: inline-block;
 }
 
 fieldset {
-  border: none;
+    border: none;
 }
 
 legend {
-  padding-top: 20px;
+    padding-top: 20px;
 }
 
-input,
-label,
-select {
-  margin: 10px 0 20px;
+input, label, select {
+    margin: 10px 0 20px;
 }
 
 textarea {
-  width: 250px;
-  height: 50px;
+    width: 250px;
+    height: 50px;
 }
 
-input[type=text]:focus,
-input[type=email]:focus,
-textarea:focus {
-  background-color: #A7D7B6;
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+    background-color: #A7D7B6;
 }
 
 button {
-  width: 150px;
-  padding: 5px;
-  color: #fff;
-  background: #781125;
-  border-radius: 5px;
-  text-transform: uppercase;
+    width: 150px;
+    padding: 5px;
+    color: #fff;
+    background: #781125;
+    border-radius: 5px;
+    text-transform: uppercase;
 }
 
-.container{
-  text-align: center;
-}
-.newsletter{
-  text-align: right;
+.container {
+    text-align: center;
 }
 
-.newsletter label,
-.newsletter input {
-  margin: 15px 0;
+.newsletter {
+    text-align: right;
+}
+
+.newsletter label, .newsletter input {
+    margin: 15px 0;
 }
 
 
 /* Styles for larger screens */
+
 @media screen and (min-width: 840px) {
-  .photo{
-    width: 40%;
-  }
+    .photo {
+        width: 40%;
+    }
 }

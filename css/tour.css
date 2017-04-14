@@ -6,10 +6,10 @@ table {
 }
 
 caption {
-  color: #ECD393;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 10px;
+    color: #ECD393;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 table th, table td {
