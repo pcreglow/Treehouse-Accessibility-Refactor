@@ -36,6 +36,15 @@ textarea:focus {
   background-color: #A7D7B6;
 }
 
+button {
+  width: 150px;
+  padding: 5px;
+  color: #fff;
+  background: #781125;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
 .container{
   text-align: center;
 }
