@@ -35,10 +35,11 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 button {
     width: 150px;
     padding: 5px;
-    color: #fff;
-    background: #781125;
+    color: #000;
+    background: #A7D7B6;
     border-radius: 5px;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 .container {
